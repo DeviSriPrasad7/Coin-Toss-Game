@@ -1,0 +1,50 @@
+/* Write your CSS here */
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e2a139;
+  height: 100vh;
+}
+.sub-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 7px;
+  border-width: 0px;
+  margin: 5px;
+  padding: 25px;
+  width: 30%;
+}
+.heading {
+  color: #f9d423;
+  font-size: 25px;
+  font-family: 'Roboto';
+}
+.sub-heading {
+  color: #334155;
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+.img {
+  height: 190px;
+  width: 190px;
+  margin: 10px;
+}
+.button {
+  background-color: #e2a139;
+  border-radius: 7px;
+  border-width: 0px;
+  padding: 10px;
+  cursor: pointer;
+  outline: none;
+}
+.t-h-t-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 75%;
+}
